@@ -1,0 +1,19 @@
+{
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "Ejercicio 6 semana 3, back end, node js, Launch X.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioaltuzar/express_basic.git"
+  },
+  "author": "Sergio Altuzar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioaltuzar/express_basic/issues"
+  },
+  "homepage": "https://github.com/sergioaltuzar/express_basic#readme"
+}
