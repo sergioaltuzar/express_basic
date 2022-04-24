@@ -10,6 +10,6 @@ app.get('/', (req,res) => {
 });
 
 //Con esto inicializamos esta app
-app.listeng(port, () => {
+app.listen(port, () => {
     console.log(`Èxample app listening on port ${port}`)
 });
