@@ -6,10 +6,18 @@ const app = express();
 const port = 3000;
 //path inicial respondera a la url localhost:3000
 app.get('/', (req,res) => {
-    res.send('Hello World!')
+    res.send('Hello World!');
 });
 
-//Con esto inicializamos esta app
+/*Con esto inicializamos esta app
 app.listen(port, () => {
     console.log(`Èxample app listening on port ${port}`)
+});
+*/
+
+//respondiendo texto
+//localhost:3000/launchx
+app.get('/launchx', (req, res) => {
+    rest.send('Bienvenidos a launchx');
+
 });
